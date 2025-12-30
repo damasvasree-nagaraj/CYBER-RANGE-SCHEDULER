@@ -16,3 +16,7 @@ Real-time Cyber Lab Booking application
 [**https://damasvasree-nagaraj.github.io/Cyber-Range-Scheduler/frontend.html**](https://damasvasree-nagaraj.github.io/Cyber-Range-Scheduler/frontend.html)
 
 ## 🎬 30-Second Demo Flow
+
+The command to run this file is
+ pip install fastapi[all] uvicorn apscheduler sqlalchemy psycopg2-binary python-multipart
+ uvicorn app.main:app --reload
